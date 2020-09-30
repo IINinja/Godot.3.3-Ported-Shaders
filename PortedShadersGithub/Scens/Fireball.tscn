@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Shaders/FlameSphere.shader" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/time = null
+shader_param/resolution = Vector2( 800, 600 )
+
+[node name="Fireball" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource( 1 )
+margin_left = 2.0
+margin_top = 1.0
+margin_right = 1027.0
+margin_bottom = 602.0
+color = Color( 0.113725, 0.196078, 0.227451, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

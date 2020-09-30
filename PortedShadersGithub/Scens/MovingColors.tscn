@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Shaders/MovingColors.shader" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/time = null
+shader_param/mouse = Vector2( 0, 0 )
+shader_param/resolution = Vector2( 1025, 601 )
+
+[node name="Movingcolors" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource( 1 )
+margin_left = 4.51984
+margin_top = 2.25992
+margin_right = 1029.52
+margin_bottom = 603.26
+color = Color( 0.113725, 0.196078, 0.227451, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
