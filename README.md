@@ -1,5 +1,7 @@
 # Godot.3.2.2-Ported-Shaders
-This is a ported shaders from shadertoy to Godot engine and work on GLES3 rendering 
+This is a ported shaders from shadertoy to Godot 3x engine and work on GLES3 rendering and
+on all versions off godot from godot 3.0 and up!
+Enjoe!
 
 diferent ported set of shaders can look on:
 https://youtu.be/b5djFVm1C50
